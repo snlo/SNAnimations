@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A89585C4B0FBB1164DAD66 /* libPods-SNAnimationsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C91D03B1DFE9BB5FB827F0 /* libPods-SNAnimationsTests.a */; };
+		39885BD516AD0569BF58B38F /* libPods-SNAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D6896AFD2BBE82E617DC9B /* libPods-SNAnimations.a */; };
 		5EB001FA209F696D003E8AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB001F9209F696D003E8AF8 /* AppDelegate.m */; };
 		5EB001FD209F696D003E8AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB001FC209F696D003E8AF8 /* ViewController.m */; };
 		5EB00200209F696D003E8AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB001FE209F696D003E8AF8 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 		5EB00212209F696E003E8AF8 /* SNAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB00211209F696E003E8AF8 /* SNAnimationsTests.m */; };
 		5EB0021D209F696E003E8AF8 /* SNAnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0021C209F696E003E8AF8 /* SNAnimationsUITests.m */; };
 		5EB0022D209F69FA003E8AF8 /* SNAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0022B209F69FA003E8AF8 /* SNAnimations.m */; };
+		5ED6AAE720A7260000128667 /* UIView+SNAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6AAE620A7260000128667 /* UIView+SNAnimations.m */; };
+		8210C48BBBB5B9D909214495 /* libPods-SNAnimationsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DEAFD652ACA226BA8058DA /* libPods-SNAnimationsUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34D6896AFD2BBE82E617DC9B /* libPods-SNAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7423DCB4DB187D5701A160 /* Pods-SNAnimationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimationsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimationsTests/Pods-SNAnimationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		55C91D03B1DFE9BB5FB827F0 /* libPods-SNAnimationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNAnimationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB001F5209F696D003E8AF8 /* SNAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB001F8209F696D003E8AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EB001F9209F696D003E8AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,14 @@
 		5EB0021E209F696E003E8AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB0022B209F69FA003E8AF8 /* SNAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNAnimations.m; sourceTree = "<group>"; };
 		5EB0022C209F69FA003E8AF8 /* SNAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNAnimations.h; sourceTree = "<group>"; };
+		5ED6AAE520A7260000128667 /* UIView+SNAnimations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SNAnimations.h"; sourceTree = "<group>"; };
+		5ED6AAE620A7260000128667 /* UIView+SNAnimations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNAnimations.m"; sourceTree = "<group>"; };
+		78603AD642F2925BA2495964 /* Pods-SNAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimations.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimations/Pods-SNAnimations.release.xcconfig"; sourceTree = "<group>"; };
+		81B4F8C0E7B3D084C1E59CCE /* Pods-SNAnimationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimationsUITests/Pods-SNAnimationsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86D3531262DCA5FB77D54507 /* Pods-SNAnimationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimationsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimationsUITests/Pods-SNAnimationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5DEAFD652ACA226BA8058DA /* libPods-SNAnimationsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNAnimationsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF28341AE6F3CE61826E3DD0 /* Pods-SNAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimations/Pods-SNAnimations.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEBC75812725CC8B239AD5C /* Pods-SNAnimationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNAnimationsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNAnimationsTests/Pods-SNAnimationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39885BD516AD0569BF58B38F /* libPods-SNAnimations.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A89585C4B0FBB1164DAD66 /* libPods-SNAnimationsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8210C48BBBB5B9D909214495 /* libPods-SNAnimationsUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,8 @@
 				5EB00210209F696E003E8AF8 /* SNAnimationsTests */,
 				5EB0021B209F696E003E8AF8 /* SNAnimationsUITests */,
 				5EB001F6209F696D003E8AF8 /* Products */,
+				6DB06EFA315843751F1D0686 /* Pods */,
+				FDE2471E5B5CD789435C5412 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +161,33 @@
 			children = (
 				5EB0022C209F69FA003E8AF8 /* SNAnimations.h */,
 				5EB0022B209F69FA003E8AF8 /* SNAnimations.m */,
+				5ED6AAE520A7260000128667 /* UIView+SNAnimations.h */,
+				5ED6AAE620A7260000128667 /* UIView+SNAnimations.m */,
 			);
 			path = SNAnimations;
+			sourceTree = "<group>";
+		};
+		6DB06EFA315843751F1D0686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF28341AE6F3CE61826E3DD0 /* Pods-SNAnimations.debug.xcconfig */,
+				78603AD642F2925BA2495964 /* Pods-SNAnimations.release.xcconfig */,
+				EEEBC75812725CC8B239AD5C /* Pods-SNAnimationsTests.debug.xcconfig */,
+				4D7423DCB4DB187D5701A160 /* Pods-SNAnimationsTests.release.xcconfig */,
+				86D3531262DCA5FB77D54507 /* Pods-SNAnimationsUITests.debug.xcconfig */,
+				81B4F8C0E7B3D084C1E59CCE /* Pods-SNAnimationsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDE2471E5B5CD789435C5412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D6896AFD2BBE82E617DC9B /* libPods-SNAnimations.a */,
+				55C91D03B1DFE9BB5FB827F0 /* libPods-SNAnimationsTests.a */,
+				A5DEAFD652ACA226BA8058DA /* libPods-SNAnimationsUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00221209F696E003E8AF8 /* Build configuration list for PBXNativeTarget "SNAnimations" */;
 			buildPhases = (
+				86D6413FD351453E2A75E414 /* [CP] Check Pods Manifest.lock */,
 				5EB001F1209F696D003E8AF8 /* Sources */,
 				5EB001F2209F696D003E8AF8 /* Frameworks */,
 				5EB001F3209F696D003E8AF8 /* Resources */,
@@ -169,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00224209F696E003E8AF8 /* Build configuration list for PBXNativeTarget "SNAnimationsTests" */;
 			buildPhases = (
+				2A7BAD89373674862FC38140 /* [CP] Check Pods Manifest.lock */,
 				5EB00209209F696E003E8AF8 /* Sources */,
 				5EB0020A209F696E003E8AF8 /* Frameworks */,
 				5EB0020B209F696E003E8AF8 /* Resources */,
@@ -187,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EB00227209F696E003E8AF8 /* Build configuration list for PBXNativeTarget "SNAnimationsUITests" */;
 			buildPhases = (
+				0765A8B270DFB31E26D5EDF7 /* [CP] Check Pods Manifest.lock */,
 				5EB00214209F696E003E8AF8 /* Sources */,
 				5EB00215209F696E003E8AF8 /* Frameworks */,
 				5EB00216209F696E003E8AF8 /* Resources */,
@@ -208,7 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = snloveydus;
+				ORGANIZATIONNAME = snlo;
 				TargetAttributes = {
 					5EB001F4209F696D003E8AF8 = {
 						CreatedOnToolsVersion = 9.3;
@@ -270,6 +318,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0765A8B270DFB31E26D5EDF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNAnimationsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A7BAD89373674862FC38140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNAnimationsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D6413FD351453E2A75E414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EB001F1209F696D003E8AF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,6 +382,7 @@
 			files = (
 				5EB001FD209F696D003E8AF8 /* ViewController.m in Sources */,
 				5EB0022D209F69FA003E8AF8 /* SNAnimations.m in Sources */,
+				5ED6AAE720A7260000128667 /* UIView+SNAnimations.m in Sources */,
 				5EB00208209F696D003E8AF8 /* main.m in Sources */,
 				5EB001FA209F696D003E8AF8 /* AppDelegate.m in Sources */,
 			);
@@ -445,6 +551,7 @@
 		};
 		5EB00222209F696E003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF28341AE6F3CE61826E3DD0 /* Pods-SNAnimations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,6 +568,7 @@
 		};
 		5EB00223209F696E003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78603AD642F2925BA2495964 /* Pods-SNAnimations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +585,7 @@
 		};
 		5EB00225209F696E003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEBC75812725CC8B239AD5C /* Pods-SNAnimationsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +604,7 @@
 		};
 		5EB00226209F696E003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D7423DCB4DB187D5701A160 /* Pods-SNAnimationsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +623,7 @@
 		};
 		5EB00228209F696E003E8AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D3531262DCA5FB77D54507 /* Pods-SNAnimationsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNAnimationsUITests/Info.plist;
@@ -530,6 +641,7 @@
 		};
 		5EB00229209F696E003E8AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B4F8C0E7B3D084C1E59CCE /* Pods-SNAnimationsUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNAnimationsUITests/Info.plist;
