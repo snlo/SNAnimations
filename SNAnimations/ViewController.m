@@ -27,7 +27,7 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	
+//	pod trunk push SNAnimations.podspec --verbose --allow-warnings --use-libraries
 	
 	
 	[self.button addTarget:self action:@selector(handleButton:) forControlEvents:UIControlEventTouchUpInside];
