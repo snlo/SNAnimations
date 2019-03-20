@@ -15,7 +15,6 @@
 @implementation SNAnimations
 
 + (CABasicAnimation *)fadeInAnimationToAlpha:(CGFloat)toAlpha duration:(CFTimeInterval)duration {
-    //淡入淡出动画
     CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     animation.duration = duration;
     animation.fromValue = @0;

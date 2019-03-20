@@ -12,22 +12,11 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-//#import <POP.h>
-//#import <locale.h>
-
 #import "UIView+SNAnimations.h"
 
 static const CGFloat kSNAnimationsTime = 0.3;
 
-//#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_3
-
-//@interface SNAnimations : NSObject <CAAnimationDelegate>
-
-//#else
-
 @interface SNAnimations : NSObject
-
-//#endif
 
 /**
  淡入
