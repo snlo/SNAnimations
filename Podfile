@@ -8,7 +8,7 @@ target 'SNAnimations' do
   # use_frameworks!
 
   pod 'pop'
-  pod 'lottie-ios'
+  pod 'lottie-ios', '~> 2.5.3'
 
   target 'SNAnimationsTests' do
     inherit! :search_paths
