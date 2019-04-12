@@ -53,7 +53,7 @@
 + (CABasicAnimation *)zoomInAnimationToPorportion:(NSNumber *)porportion duration:(CFTimeInterval)duration {
     CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     animation.duration = duration;
-    animation.fromValue = @0;
+    animation.fromValue = @(1);
     animation.toValue = porportion;
     animation.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut];
     animation.removedOnCompletion = NO;
@@ -61,10 +61,10 @@
     return animation;
 }
 
-+ (CABasicAnimation *)zoomOutAnimationDuration:(CFTimeInterval)duration {
++ (CABasicAnimation *)zoomOutAnimationToPorportion:(NSNumber *)porportion duration:(CFTimeInterval)duration {
     CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     animation.duration = duration;
-    animation.toValue = @0;
+    animation.toValue = porportion;
     animation.timingFunction = [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseIn];
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeForwards;
