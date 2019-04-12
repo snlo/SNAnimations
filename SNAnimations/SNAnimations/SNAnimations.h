@@ -46,7 +46,7 @@ static const CGFloat kSNAnimationsTime = 0.3;
 /**
  缩小
  */
-- (CABasicAnimation *)zoomOutAnimationToPorportion:(NSNumber *)porportion duration:(CFTimeInterval)duration;
++ (CABasicAnimation *)zoomOutAnimationToPorportion:(NSNumber *)porportion duration:(CFTimeInterval)duration;
 
 /**
  旋转

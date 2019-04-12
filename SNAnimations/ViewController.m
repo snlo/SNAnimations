@@ -36,7 +36,9 @@
 
 - (void)handleButton:(UIButton *)sender {
 	
-	CABasicAnimation * animation = [SNAnimations shakeAnimationformValue:-5 toValue:5 repeatCount:5 duration:1];
+	CABasicAnimation * animation =
+//    [SNAnimations shakeAnimationformValue:-5 toValue:5 repeatCount:5 duration:1];
+    [SNAnimations zoomOutAnimationToPorportion:@(0.5) duration:0.3];
 
 	[self.button sn_addAnimation:animation didStartBlock:^(CAAnimation *Animation) {
 		NSLog(@"-------button----start-----");
